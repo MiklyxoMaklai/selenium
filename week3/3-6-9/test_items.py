@@ -1,9 +1,10 @@
-#Задание: запуск автотестов для разных языков интерфейса
+# Задание: запуск автотестов для разных языков интерфейса
 import time
 
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
-#проверка наличия кнопки добавления в корзину
+
+# Проверка наличия кнопки добавления в корзину
 def test_check_button_basket(browser):
     browser.get(link)
     time.sleep(10)
